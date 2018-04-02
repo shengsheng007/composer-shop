@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>shopping</title>
+</head>
+<body>
+
+<ul>
+	<!-- foreach twig里用法 -->
+	{% for item in result %}
+		<li>{{item.name | lower}}</li>
+		<!-- item就是一个foreach的value,可以是随意的代表 -->
+
+	{% endfor %}
+</ul>
+
+</body>
+</html>
